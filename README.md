@@ -2,7 +2,7 @@
 
 ## Zadání
 
-1. Stáhni si zadání jako [ZIP](https://github.com/Czechitas-podklady-WEB/Cviceni-React-udalosti/archive/zadani.zip) nebo forkni [tento repozitář](https://github.com/Czechitas-podklady-WEB/Cviceni-React-udalosti) a kopii k sobě naklonuj.
+1. Vycházej z kódu v tomto repozitáři.
 1. Otevři příkazovou řádku ve složce s podklady.
 1. Nainstaluj závislosti pomocí `npm install`.
 1. Spusť vývojový server přes `npm start`.
