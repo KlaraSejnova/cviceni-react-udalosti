@@ -3,6 +3,8 @@ import React from 'react'
 // Zadání 1: Dopiš komponentu `Pozdrav`, aby v tlačítku byl text „Pozdrav DOPLŇ_JMÉNO_VE_ČTVRTÉM_PÁDĚ“.
 // Zadání 2: Na klik zobraz bublinu s textem „Ahoj DOPLŇ_JMÉNO_V_PÁTÉM_PÁDĚ“.
 
+// Na stránce by se pak uživateli mělo ukázat tlačítko <button>Pozdrav Martina</button> a po rozkliku vyskočit bublina s textem „Ahoj Martine“.
+
 const Pozdrav = ({ jmenoVeCtvrtemPade, jmenoVPatemPade }) => {
 	return <button>@TODO</button>
 }
