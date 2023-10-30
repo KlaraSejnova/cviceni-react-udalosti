@@ -1,10 +1,9 @@
-import React from 'react'
-import kvetinaUrl from './kvetina.svg'
-import listUrl from './list.svg'
-import slunceUrl from './slunce.svg'
-import vlockaUrl from './vlocka.svg'
+import kvetinaUrl from './kvetina.svg';
+import listUrl from './list.svg';
+import slunceUrl from './slunce.svg';
+import vlockaUrl from './vlocka.svg';
 
-// Zadání: Dopiš komponentu tak, aby každé tlačítko po kliknutí vypsalo, jakou volbu uživatel vybral. Například pro poslední `console.log('Uživatel zvolil zimu')`.
+// Zadání: Doplňte komponentu tak, aby každé tlačítko po kliknutí vypsalo, jakou volbu uživatel vybral. Například pro poslední `console.log('Uživatel zvolil zimu')`.
 
 export const Uloha3 = () => {
 	return (
@@ -37,5 +36,5 @@ export const Uloha3 = () => {
 				</li>
 			</ol>
 		</>
-	)
-}
+	);
+};
