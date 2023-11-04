@@ -3,7 +3,10 @@ import listUrl from './list.svg';
 import slunceUrl from './slunce.svg';
 import vlockaUrl from './vlocka.svg';
 
-// Zadání: Doplňte komponentu tak, aby každé tlačítko po kliknutí vypsalo, jakou volbu uživatel vybral. Například pro poslední `console.log('Uživatel zvolil zimu')`.
+/*
+Zadání: Doplňte komponentu tak, aby každé tlačítko po kliknutí vypsalo, jakou volbu uživatel
+  vybral. Například pro poslední `console.log('Uživatel zvolil zimu')`.
+*/
 
 export const Uloha3 = () => {
   return (

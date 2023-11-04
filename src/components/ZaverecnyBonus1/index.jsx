@@ -1,4 +1,9 @@
-// Zadání: Předstírejme, že na stránce je složitý formulář, do kterého uživatel možná pracně vyplnil nějaká data. Po kliku na odkaz se radši uživatele zeptejte pomocí `confirm`, jestli chce opravdu odejít na jinou stránku a tím ztratit rozpracovanou práci. Pokud otázku nepotvrdí, nechce odejít, zamezte přesměrování pomocí `event.preventDefault()`.
+/*
+Zadání: Předstírejme, že na stránce je složitý formulář, do kterého uživatel možná pracně vyplnil
+  nějaká data. Po kliku na odkaz se radši uživatele zeptejte pomocí `confirm`, jestli chce opravdu
+  odejít na jinou stránku a tím ztratit rozpracovanou práci. Pokud otázku nepotvrdí, nechce odejít,
+  zamezte přesměrování pomocí `event.preventDefault()`.
+*/
 
 export const ZaverecnyBonus1 = () => {
   return (
