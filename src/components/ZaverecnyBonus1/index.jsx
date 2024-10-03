@@ -4,11 +4,18 @@ Zadání: Předstírejme, že na stránce je složitý formulář, do kterého u
   odejít na jinou stránku a tím ztratit rozpracovanou práci. Pokud otázku nepotvrdí, nechce odejít,
   zamezte přesměrování pomocí `event.preventDefault()`.
 */
-
+const handleClick = (e) => {
+  if (!confirm("are you sure")) {
+    e.preventDefault();
+  }
+};
 export const ZaverecnyBonus1 = () => {
   return (
     <>
-      Odkaz: <a href="https://www.czechitas.cz/">www.czechitas.cz</a>
+      Odkaz:{" "}
+      <a onClick={handleClick} href="https://www.czechitas.cz/">
+        www.czechitas.cz
+      </a>
       <hr />
       Formulář:
       <form>
